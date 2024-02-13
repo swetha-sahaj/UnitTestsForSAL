@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.abc.MainKtTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-02-13T12:22:40" hostname="Swethas-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="player moves are based on dice rolls()" classname="org.abc.MainKtTest" time="0.007"/>
+  <testcase name="ladder base is lower than ladder top()" classname="org.abc.MainKtTest" time="0.001"/>
+  <testcase name="player should take turns()" classname="org.abc.MainKtTest" time="0.006"/>
+  <testcase name="player who lands on snake moves to its tail()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="player repeats turn when 6()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="player remains in the same position if the dice roll goes beyond 100()" classname="org.abc.MainKtTest" time="0.001"/>
+  <testcase name="player should start with 0()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="dice roll should be within the range for 1 to 6()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="player who lands on ladder moves to the ladder top()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="snake tail is lower than snake head()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="the board is numbered from 1 to 100()" classname="org.abc.MainKtTest" time="0.0"/>
+  <testcase name="player wins when he reaches 100()" classname="org.abc.MainKtTest" time="0.0"/>
+  <system-out><![CDATA[swe [2, 1, 1, 3, 2, 4, 5, 5, 1, 6, 1, 4, 5, 1, 6, 5, 2, 6, 2, 4, 5, 1, 1, 6, 1, 2, 4, 4, 6, 4]
+abc [4, 6, 5, 3, 6, 4, 3, 2, 2, 1, 3, 1, 5, 5, 5, 6, 4, 3, 2, 2, 1, 6, 6, 2, 2, 5, 2, 3, 5]
+swe wins the game
+swe [2, 1, 1, 3, 2, 4, 5, 5, 1, 6, 1, 4, 5, 1, 6, 5, 2, 6, 2, 4, 5, 1, 1, 6, 1, 2, 4, 4, 6, 4]
+abc [4, 6, 5, 3, 6, 4, 3, 2, 2, 1, 3, 1, 5, 5, 5, 6, 4, 3, 2, 2, 1, 6, 6, 2, 2, 5, 2, 3, 5, 4]
+swe wins the game
+Game Over
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
